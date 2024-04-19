@@ -1,4 +1,4 @@
-from demucs_wrapper import separate_audio
+import demucs.separate
 
 def separate_audio(audio_file, model='mdx_extra'):
     """
