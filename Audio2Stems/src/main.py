@@ -1,3 +1,5 @@
+import sys
+sys.path.append('/mount/src/audio2stems/Audio2Stems/src')
 import os
 import streamlit as st
 from .demucs_wrapper import separate_audio
